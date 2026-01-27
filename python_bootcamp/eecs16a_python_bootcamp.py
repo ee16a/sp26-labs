@@ -22,13 +22,14 @@ def _(mo):
     mo.md(
         r"""
         # EECS 16A Python Bootcamp
-        ### EECS 16A: Designing Information Devices and Systems I, Fall 2024
+        ### EECS 16A: Designing Information Devices and Systems I, Spring 2026
 
         <!---
               Raghav Gupta (raghav.tech13@berkeley.edu)
               Ayush Pancholy (ayush.pancholy@berkeley.edu)
               Shuming Xu (smxu@berkeley.edu)
               Nikhil ograin (ncograin@berkeley.edu)
+              Andrew Song (andrew_song@berkeley.edu)
         ---->
         """
     )
@@ -67,9 +68,9 @@ def _(mo):
         <a id='install-test'></a>
         # Install Test
 
-        Welcome to your first Jupyter Notebook for 16A! Before we dive into the content of this lab, we want to make sure that all necessary packages are installed correctly. 
+        Welcome to your first lab for 16A! Before we dive into the content of this lab, we want to make sure that all necessary packages are installed correctly. 
 
-        Click on the block of code below (don't worry about what it does - we'll start covering that next lab) and press the Run button above to run it. Alternately, you can use `Shift + Enter` to execute and move to the next block, or `Control/Command + Enter` to execute and stay in the same block. 
+        Click on the block of code below (don't worry about what it does - we'll start covering that next lab) and press the Run button (the little play button) above to run it. Alternately, you can use `Shift + Enter` to execute and move to the next block, or `Control/Command + Enter` to execute and stay in the same block. 
 
         If anything strange appears (most likely a jumbled mass of text that is an error message) call over your lab TA or one of your lab assistants and they should be able to help! **<span style="color:red"> Warnings are fine, don't worry about those.</span>**
 
@@ -159,7 +160,7 @@ def _(mo):
         <a id='overview'></a>
         # Overview
 
-        This mini-lab serves as an introduction to Jupyter, Python and a couple important packages we will be using throughout the semester. The lab aims to teach you proper usage of certain commands and can serve as a reference doc in the future. Even if you are a Python wizard already, we recommend that you at least look through the lab and try a few of the later problems to get re-acquainted with the functions we will be frequently using in this course.
+        This mini-lab serves as an introduction to Marimo, Python and a couple important packages we will be using throughout the semester. The lab aims to teach you proper usage of certain commands and can serve as a reference doc in the future. Even if you are a Python wizard already, we recommend that you at least look through the lab and try a few of the later problems to get re-acquainted with the functions we will be frequently using in this course.
 
         This lab is separated into two main parts: Guide and Questions. The Guide portion walks you through frequently used Python code, functions, and techniques. The Guide is supplemented with numerous blocks of example code to showcase concepts. The Questions portion of the lab is a collection of 10 problems meant to test your understanding of this guide. If you can answer these questions, then you have the knowledge to complete any and all programming tasks in EECS 16A.
         """
@@ -1380,7 +1381,7 @@ def _(mo):
         ## Feedback
         If you have any feedback to give the teaching staff about the course (lab content, staff, etc), you can submit it through this Google form. Responses are **fully anonymous** and responses are actively monitored to improve the labs and course. Completing this form is **not required**.
 
-        [Anyonymous feedback Google form](https://docs.google.com/forms/d/e/1FAIpQLSdSbJHYZpZqcIKYTw8CfpfrX6OYaGzqlgBtKfsNKEOs4BzZJg/viewform?usp=sf_link)
+        [Anyonymous feedback Google form](https://tinyurl.com/fb-student-sp26)
 
         *If you have a personal matter to discuss or need a response to your feedback, please contact <a href="mailto:eecs16a.lab@berkeley.edu">eecs16a.lab@berkeley.edu</a> and/or <a href="mailto:eecs16a@berkeley.edu">eecs16a@berkeley.edu</a>*.
         """
@@ -1394,9 +1395,10 @@ def _(mo):
         r"""
         <a id='checkoff'></a>
         ## Checkoff
-        To receive credit, all labs will require the submission of a checkoff Google form. This link will be at the bottom of each lab. Both partners should fill out the form (you should have one submission per person), and feel free to use the same Google account/computer to fill it out as long as you have the correct names and student IDs.
+        To receive credit, all labs will require the submission of a checkoff Google form. This link will be at the bottom of each lab. If you worked with a partner, both partners should fill out the form (you should have one submission per person), and feel free to use the same Google account/computer to fill it out as long as you have the correct names and student IDs.
+        If you completed the lab online, you must come to Cory 111 at a lab station first before filling out this form. Please do not fill out this form when you are not in the lab.
 
-        [Fill out the checkoff Google form.](https://docs.google.com/forms/d/e/1FAIpQLSfIOjvEJXew-M0-h9uJ3C25UOdmmABFK0GGNl3o9p7po7Cc0A/viewform?usp=sf_link)
+        [Fill out the checkoff Google form.](https://docs.google.com/forms/d/e/1FAIpQLSdaIuUUaEW3rXgQMZeZRgysKuhvekRla8X7IUH813MLcteP0w/viewform?usp=publish-editor)
         """
     )
     return
