@@ -11,10 +11,10 @@
 # auto_instantiate = false
 # ///
 
-import marimo
+import marimo as mo
 
 __generated_with = "0.12.4"
-app = marimo.App(width="medium")
+app = mo.App(width="medium")
 
 
 @app.cell(hide_code=True)
